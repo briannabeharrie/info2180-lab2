@@ -4,3 +4,12 @@
     width:200px;
     height:200px;
 }
+header {
+    text-align: center; /* Center-align text content within the header */
+}
+
+/* Center-align the image within the header */
+header .rounded-image {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center horizontally using margin:auto */
+}
