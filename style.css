@@ -1,0 +1,6 @@
+/* Apply border-radius to the image with the "rounded-image" class */
+.rounded-image {
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+}
