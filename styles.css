@@ -1,11 +1,8 @@
 /* Apply border-radius to the image with the "rounded-image" class */
 .rounded-image {
     border-radius: 50%;
-    width:200px;
-    height:200px;
-}
-header {
-    text-align: center; /* Center-align text content within the header */
+    width:150px;
+    height:150px;
 }
 
 /* Center-align the image within the header */
@@ -13,3 +10,84 @@ header .rounded-image {
     display: block; /* Make the image a block element */
     margin: 0 auto; /* Center horizontally using margin:auto */
 }
+/* Reset margin and padding*/
+*{
+    margin:0;
+    padding:0;
+}
+/* Default Styles for text */
+body{
+    font-size:18px;
+    color: #2D3748;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+/* Container styles using CSS Grid */
+.container {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-gap:20px;
+    max-width:1200px;
+    margin: 0 auto;
+    padding:20px;
+}
+/* Header styles */
+header {
+    background-color:  #63B3ED;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header-content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+}
+h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Main content styles */
+main {
+    grid-column: 2;
+  }
+article{
+    margin-bottom:20px;
+}
+h2 {
+    font-size: 32px;
+    color: #48BB78;
+}
+/* Sidebar styles */
+aside {
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+  
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+.about-section {
+    padding: 10px;
+}
+  
+.social-media-list,
+.archives-list {
+    list-style-type: none;
+}
+  
+.social-media-list a,
+.archives-list a {
+    text-decoration: none;
+    color: #4299E1;
+}
+  
+/* Footer styles */
+footer {
+    background-color: #2C5282;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+}
+  
